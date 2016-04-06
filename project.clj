@@ -1,4 +1,4 @@
-(defproject tracer-gui "0.1.0"
+(defproject tracer-gui "0.1.0-SNAPSHOT"
   :description "Simple GUI for inspecting Ring-like requests"
   :url "https://github.com/plexus"
   :license {:name "Mozilla Public License 2.0"
