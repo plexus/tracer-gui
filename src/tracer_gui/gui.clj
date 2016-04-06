@@ -118,7 +118,7 @@
            (.setText (print-str k))
            (.setContent (create-tracer-pane state k ring-columns)))))
       (doto stage
-        (.setTitle "Ring Debugger")
+        (.setTitle "Tracer")
         (.setWidth 800)
         (.setHeight 500)
         (.setScene scene)

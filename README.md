@@ -1,6 +1,27 @@
-# tracer-gui
+# Tracer GUI
 
-##
+![](screenshot.png)
+
+## Usage
+
+Wrap your Ring handler in `trace-ring`, a GUI will pop up where you see the
+history of request, and you can inspect request and response maps.
+
+Only one window will be open at a time. Evaluate `trace-ring` again to re-open a
+closed window.
+
+```
+(ns my-app.server
+  (:require [tracer-gui.core :refer [trace-ring]]))
+
+(def my-routes ,,, ;; ring routes
+  )
+
+(def http-handler
+  (trace-ring my-routes))
+```
+
+This is alpha level software, provided **as is**. Pull requests are welcome!
 
 ## License
 
