@@ -2,6 +2,10 @@
 
 ![](screenshot.png)
 
+## Artifacts
+
+[![Clojars Project](https://img.shields.io/clojars/v/tracer-gui.svg)](https://clojars.org/tracer-gui)
+
 ## Usage
 
 Wrap your Ring handler in `trace-ring`, a GUI will pop up where you see the
